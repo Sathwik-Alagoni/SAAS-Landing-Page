@@ -1,0 +1,198 @@
+/* Body Styling */
+body {
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #7030cc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    margin-left: 50px;
+}
+
+.logo img {
+    transform: scale(0.7);
+}
+
+/* Navigation List Items */
+.list-items {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 300px;
+    color: white;
+}
+
+/* Button Styling */
+.button button {
+    padding: 10px 20px;
+    background-color: #1bbcef;
+    color: white;
+    border: none;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+/* List Item Hover */
+.list-items li:hover {
+    cursor: pointer;
+    color: #1bbcef;
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Main Image */
+.main_img img {
+    width: 550px;
+    margin-right: 120px;
+}
+
+/* Main Heading */
+.heading {
+    margin-left: 120px;
+    color: white;
+}
+
+.heading h1 {
+    font-size: 3rem;
+}
+
+/* Middle Section */
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Secondary Image */
+.saas_img img {
+    width: 550px;
+    margin-left: 100px;
+}
+
+/* Features Section */
+.features {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 200px;
+}
+
+.features h1 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* Feature Headings */
+.feature h2 {
+    font-size: 1rem;
+}
+
+/* Feature Layout */
+.feat {
+    display: flex;
+}
+
+/* Arrow Icons */
+.arrow svg {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+
+/* Arrow Icon Colors */
+.arrow.one svg {
+    fill: #f29450;
+}
+
+.arrow.two svg {
+    fill: #7bca3d;
+}
+
+.arrow.three svg {
+    fill: #449ff2;
+}
+
+/* Feature Images */
+.feature h2 img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Customer Section */
+.customer {
+    display: flex; 
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 200px;  
+}
+
+/* Bind Button */
+.bind {
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* App Container */
+.app {
+    text-align: center;
+    transform: scale(0.8);
+}
+
+/* SVG Icons */
+.svg svg {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    overflow: visible;
+}
+
+/* SVG Icon Colors */
+.svg svg:first-child {
+    fill: #ba878b;
+    background-color: #faeaeb;
+}
+
+.svg.two svg {
+    background-color: #f7efe5;
+}
+
+.svg.three svg {
+    background-color: #e9f4f6;
+}
+
+.svg.four svg {
+    fill: #b35fc1;
+    background-color: #f2e7f5;
+}
+
+/* Bottom Section */
+.bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+/* Bottom Heading */
+.bottom h1 {
+    text-align: center;
+}
